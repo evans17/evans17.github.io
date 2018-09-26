@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<htm>
+<head>
+<title>order page</title>
+</head>
+<body>
+  <h1>fastfoodfast</h1>
+    <div class="input-box">
+      <h4>place an order:</h4>
+     <form class="addressForm" name="addressForm" action="">
+       Fooditem:<br/>
+    <input required type="text" name="firstName" id="f1">
+       <br/>description:<br/>
+    <input type="text" name="quantity" id="f2">
+       <br/>quantity:<br/>
+    <input type="text" name="phone" id="f3">
+       <br/>Email:<br/>
+    <input type="text" name="cofee" id="f4">
+       <br/>Cofee:<br/>
+    <input type="text" name="Tea" id="f5">
+       <br/>Tea:<br/>
+    <input type="text" name="Milk" id="f6">
+       <br/>Milk:<br/>
+    <input type="text" name="Pizza" id="f7">
+       <br/>Pizza<br/>
+    <input type="text" name="zip" id="f8">
+  <br><input type="button" value ="order" class="entry" onclick="add(),listView()">
+</form>    
+    </div>
+
+  <div class="retrieve">
+    <h4>Retrieve order:<h4>
+      <form class="retrieveEntry">
+       First order:<br/>
+    <input required type="text" name="firstOrder" id="first">
+       <br/>OrderId:<br/>
+    <input type="text" name="lastName" id="last">
+     <input type="button" value ="search" class="entry" onclick="searchInput()">
+    <div> 
+<div class="output" id="out"><h3>Display</h3>
+ </div>
+
+</body>
+</html>
