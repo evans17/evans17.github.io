@@ -1,0 +1,66 @@
+body {
+  background-color: #ffe6e6;
+  
+    }
+
+div {
+    background: seashell none repeat scroll 0 0;
+    border: 3px solid #000;
+    color: green;
+    margin-left: 265px;
+    margin-top: 15px;
+    text-align: center;
+    width: 677px;
+}
+
+
+.p{
+ 
+    color: green;
+    margin-top: 15px;
+    text-align: center;
+   
+}
+p {
+  margin: 20px;
+}
+
+
+.input-box {
+    background-color:#e6e6e6 ;
+    border: 2px solid black;
+    color: unset;
+    float: left;
+    margin-left: 300px;
+    padding: 10px 40px 40px;
+}
+
+
+
+
+
+.output {
+    background-color: #ff33ff;
+    border: 2px solid black;
+    color: #000;
+    font-weight: 100;
+    height: auto;
+    margin-left: 187px;
+    margin-top: -652px;
+    padding: 18px;
+    text-align: center;
+    width: 425px;
+}
+
+.retrieve {
+    background-color: #cccccc;
+    border: 2px solid black;
+    height: 150px;
+    margin-left: 265px;
+    margin-top: 492px;
+    padding: 18px;
+    width: 200px;
+}
+.entry{
+ margin-top: 10px; 
+}
